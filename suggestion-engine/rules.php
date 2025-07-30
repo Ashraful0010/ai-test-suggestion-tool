@@ -1,30 +1,26 @@
 <?php
-// /suggestion-engine/rules.php
-
-function generate_suggestions($actions)
-{
-    $suggestions = [];
-    $inputFields = [];
-
-    foreach ($actions as $action) {
-        if ($action['type'] === 'input') {
-            $inputFields[$action['field']] = true;
-        }
-
-        if ($action['type'] === 'submit') {
-            if (!isset($action['data']['username']) || !isset($action['data']['password'])) {
-                $suggestions[] = "Ensure both username and password fields are filled.";
-            } else {
-                if (strlen($action['data']['password']) < 6) {
-                    $suggestions[] = "Test with a stronger password (at least 6 characters).";
-                }
+return [
+    [
+        'condition' => function ($actions) {
+            $loginClicks = array_filter($actions, fn($a) => $a['action'] === 'Clicked Login on test_login.php');
+            return count($loginClicks) >= 1;
+        },
+        'message' => "Try testing edge cases like invalid credentials."
+    ],
+    [
+        'condition' => function ($actions) {
+            return count($actions) > 5;
+        },
+        'message' => "You’ve interacted a lot — consider testing session timeout or form reset."
+    ],
+    [
+        'condition' => function ($actions) {
+            foreach ($actions as $a) {
+                if (strpos($a['page'], 'test_signup') !== false)
+                    return true;
             }
-        }
-    }
-
-    if (!isset($inputFields['username'])) {
-        $suggestions[] = "Test input validation for empty username.";
-    }
-
-    return array_unique($suggestions);
-}
+            return false;
+        },
+        'message' => "Since you tested signup, now test login with the new account."
+    ]
+];

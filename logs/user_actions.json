@@ -1,0 +1,228 @@
+[
+    {
+        "action": "focus_username",
+        "timestamp": "2025-07-30T18:45:51.735Z"
+    },
+    {
+        "action": "focus_password",
+        "timestamp": "2025-07-30T18:45:53.103Z"
+    },
+    {
+        "action": "focus_username",
+        "timestamp": "2025-07-30T18:45:57.733Z"
+    },
+    {
+        "action": "focus_password",
+        "timestamp": "2025-07-30T18:46:01.244Z"
+    },
+    {
+        "action": "focus_username",
+        "timestamp": "2025-07-30T18:46:03.030Z"
+    },
+    {
+        "action": "focus_username",
+        "timestamp": "2025-07-30T18:46:19.712Z"
+    },
+    {
+        "action": "focus_password",
+        "timestamp": "2025-07-30T18:46:29.120Z"
+    },
+    {
+        "action": "focus_username",
+        "timestamp": "2025-07-30T18:46:31.139Z"
+    },
+    {
+        "action": "focus_password",
+        "timestamp": "2025-07-30T18:46:36.218Z"
+    },
+    {
+        "action": "submit_login",
+        "timestamp": "2025-07-30T18:46:39.510Z"
+    },
+    {
+        "action": "submit_login",
+        "timestamp": "2025-07-30T18:46:42.256Z"
+    },
+    {
+        "action": "submit_login",
+        "timestamp": "2025-07-30T18:46:42.892Z"
+    },
+    {
+        "action": "submit_login",
+        "timestamp": "2025-07-30T18:46:43.032Z"
+    },
+    {
+        "eventType": "click",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:51:24.455Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:51:24.631Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:51:24.900Z"
+    },
+    {
+        "eventType": "click",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "password",
+        "timestamp": "2025-07-30T18:51:25.939Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "password",
+        "timestamp": "2025-07-30T18:51:26.176Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "password",
+        "timestamp": "2025-07-30T18:51:26.516Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "password",
+        "timestamp": "2025-07-30T18:51:26.799Z"
+    },
+    {
+        "eventType": "click",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "",
+        "timestamp": "2025-07-30T18:51:28.972Z"
+    },
+    {
+        "eventType": "form_submit",
+        "page": "test_login",
+        "detail": "Submitted login form",
+        "timestamp": "2025-07-30T18:51:28.973Z"
+    },
+    {
+        "eventType": "click",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:51:32.842Z"
+    },
+    {
+        "eventType": "form_submit",
+        "page": "test_login",
+        "detail": "Submitted login form",
+        "timestamp": "2025-07-30T18:52:14.410Z"
+    },
+    {
+        "eventType": "click",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:53:29.340Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:53:29.842Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:53:29.969Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:53:30.154Z"
+    },
+    {
+        "eventType": "click",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "password",
+        "timestamp": "2025-07-30T18:53:32.751Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "password",
+        "timestamp": "2025-07-30T18:53:32.945Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "password",
+        "timestamp": "2025-07-30T18:53:33.087Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "password",
+        "timestamp": "2025-07-30T18:53:33.243Z"
+    },
+    {
+        "eventType": "click",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:55:49.496Z"
+    },
+    {
+        "eventType": "click",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "password",
+        "timestamp": "2025-07-30T18:55:51.508Z"
+    },
+    {
+        "eventType": "click",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:55:52.572Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:55:52.805Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:55:52.832Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:55:52.960Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:55:53.172Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:55:53.232Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:55:53.314Z"
+    },
+    {
+        "eventType": "input",
+        "page": "\/ai-test-suggestion-tool\/test-pages\/test_login.php",
+        "detail": "username",
+        "timestamp": "2025-07-30T18:55:56.446Z"
+    }
+]
